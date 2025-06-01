@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Avinash Singh | Laravel Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f3f2f2, #a07d85); /* soft yellow background */
+      color: #251152; /* dark red-brown text */
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      position: relative;
+      background: linear-gradient(rgba(211, 47, 47, 0.7), rgba(15, 43, 69, 0.7));
+      color: white;
+      padding: 5rem 1rem 3rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(154, 47, 211, 0.6);
+      overflow: visible;
+    }
+    header .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #fbc02d;
+      object-fit: cover;
+      position: absolute;
+      bottom: -70px;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 0 15px rgba(251, 192, 45, 0.7);
+      background-color: white;
+    }
+    header h1 {
+      margin-bottom: 0.3rem;
+      font-size: 3rem;
+      background: linear-gradient(90deg, #061367, #d32f2f);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      font-weight: 800;
+      letter-spacing: 1px;
+      margin-top: 0;
+      padding-top: 1rem;
+    }
+    header p {
+      font-size: 1.3rem;
+      font-weight: 600;
+      background: linear-gradient(90deg, #d32f2f, #241f63);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 0.5rem;
+      letter-spacing: 0.7px;
+    }
+    main {
+      flex-grow: 1;
+      padding-top: 100px; /* to avoid overlap with profile image */
+      max-width: 1000px;
+      margin: 0 auto 3rem;
+      width: 100%;
+    }
+    section {
+      background: linear-gradient(135deg, #f3f2f2, #f9c5d1);
+      border-radius: 14px;
+      box-shadow: 0 10px 20px rgba(34, 7, 63, 0.15);
+      margin-bottom: 2.5rem;
+      padding: 2rem; ;
+    }
+    h2 {
+      font-size: 1.9rem;
+      color: #d32f2f;
+      margin-bottom: 1rem;
+      position: relative;
+      font-weight: 700;
+    }
+    h2::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      width: 70px;
+      height: 4px;
+      background: linear-gradient(90deg, #fbc02d, #d32f2f);
+      border-radius: 5px;
+    }
+    ul {
+      padding-left: 2.5rem;
+      list-style-type: disc;
+      color: #5d2600;
+    }
+    .project {
+      margin-bottom: 1.7rem;
+      color: #5d2600;
+    }
+    .project-title {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #d32f2f;
+      margin-bottom: 0.3rem;
+    }
+    footer {
+      background: linear-gradient(rgba(211, 47, 47, 0.7), rgba(15, 43, 69, 0.7));
+      color: white;
+      text-align: center;
+      padding: 1.2rem;
+      box-shadow: 0 -4px 10px rgba(211, 47, 47, 0.4);
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      margin-top: auto;
+    }
+    a {
+      color: #d32f2f;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #fbc02d;
+    }
+    p {
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Avinash Singh</h1>
+    <p>Laravel Backend Developer | API Specialist | MySQL Expert</p>
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFngg48qPBBUg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711022515196?e=2147483647&v=beta&t=CRPMqsLHw0QaC12eJbkWQHzYZq-vqcZJuu_rMCfFU_o" alt="Avinash Singh Profile" class="profile-pic" />
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>Driven and detail-oriented professional with over 2.5 years of experience specializing in Laravel, MySQL, and robust database architecture. Proficient in developing high-quality, scalable web solutions with a strong emphasis on optimizing user experience. Skilled in designing and implementing RESTful APIs, ensuring seamless integration and performance. Adept at collaborating with cross-functional teams to deliver reliable, maintainable, and efficient backend systems.</p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>SSO (Node.js & Laravel with Sanctum)</li>
+        <li>Laravel, Ajax, MySQL, MongoDB, Sequelize (ORM)</li>
+        <li>Multi-Database Integration in a Single Application</li>
+        <li>Payment Gateway Integration (ICICI, Razorpay, etc.)</li>
+        <li>REST API Development / Integration</li>
+        <li>SMS API, WhatsApp API Integration</li>
+        <li>Laravel Passport, Sanctum Authentication, JWT</li>
+        <li>Custom Wallet System</li>
+        <li>Git, FileZilla</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <div class="project-title">Ghumloo.com</div>
+        <p>Hotel booking application developed for Taj Hospitality. Developed the entire backend architecture and RESTful APIs from the ground up with a focus on scalability, performance, and secure data handling.</p>
+      </div>
+      <div class="project">
+        <div class="project-title">Jazz Cafe (School Cafeteria)</div>
+        <p>Streamlined food management system across schools. Focused on backend development for menu, inventory, and transaction management.</p>
+      </div>
+      <div class="project">
+        <div class="project-title">Hexabells</div>
+        <p>Updated backend API functionality for blogs and core content pages to improve integration and user experience.</p>
+      </div>
+      <div class="project">
+        <div class="project-title">WishU</div>
+        <p>Developed website for WISH U, a digital greetings platform under MEMORIIES FORREVER, delivering personalized multimedia greetings.</p>
+      </div>
+      <div class="project">
+        <div class="project-title">Zoylee</div>
+        <p>Contributed to Zoylee’s salon and spa booking platform with backend services and seamless scheduling integrations.</p>
+      </div>
+      <div class="project">
+        <div class="project-title">Tycove</div>
+        <p>Fashion e-commerce platform. Developed backend features including secure checkout, product catalog, and vendor operations.</p>
+      </div>
+      <div class="project">
+        <div class="project-title">Trenbee</div>
+        <p>Fashion rental platform. Enhanced backend APIs and integrated new modules. Originally developed by another company, maintained and upgraded by me.</p>
+      </div>
+      <div class="project">
+        <div class="project-title">Single Sign-On (SSO)</div>
+        <p>Implemented unified login across Laravel and Node.js apps using Sanctum, enhancing cross-platform user authentication.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>Bachelor of Computer Applications</strong><br />Swami Vivekanand Subharti University, Meerut<br />Field: Computer Science<br />Grade: 73%</p>
+      <p><strong>12th (Intermediate)</strong><br />Air Force School, Gorakhpur<br />Stream: PCM (Physics, Chemistry, Mathematics)</p>
+      <p><strong>10th (Matriculation)</strong><br />Air Force School, Gorakhpur</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:avisingh05m@gmail.com">avisingh05m@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917523941051">+91-7523941051</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/avinash-singh-5651a4247" target="_blank" rel="noopener noreferrer">linkedin.com/in/avinash-singh-5651a4247</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Avinash Singh. All rights reserved.
+  </footer>
+</body>
+</html>
